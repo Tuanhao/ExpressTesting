@@ -1,11 +1,11 @@
 <h1>Let's create an account</h1>
 <form action="register" method="POST">
   First name:<br>
-  <input type="text" name="firstName"><br>
+  <input type="text" name="firstName" required><br>
   Last name:<br>
-  <input type="text" name="lastName"><br>
+  <input type="text" name="lastName" required><br>
   Password:<br>
-  <input type="password" name="password"><br><br><br>
+  <input type="password" name="password" required><br><br><br>
   <input type="submit" value="Create Account"><br>
 </form>
 <h2>{{warning}}</h2>

@@ -2,12 +2,13 @@
 <p>Welcome to {{title}}</p>
 <form action="/logging" method="post">
   First name:<br>
-  <input type="text" name="firstName"><br>
+  <input type="text" name="firstName" required><br>
   Last name:<br>
-  <input type="text" name="lastName"><br>
+  <input type="text" name="lastName"required><br>
   Password:<br>
-  <input type="password" name="password"><br><br><br>
+  <input type="password" name="password" required><br><br><br>
   <input type="submit" value="Submit"><br>
   <input type="hidden" name="attempt" value="{{attempt}}"> Attempt: {{attempt}} </span>
 </form>
+<h3> {{warning}} <h3>
 <button><a href="users/register"> REGISTER OVER HERE </a></button>
